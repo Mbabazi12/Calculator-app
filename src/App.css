@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+}
+.body{
+  background-color: var(--body-background);
+  width: 100%;
+  max-width: 1440px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.calc{
+  width: 300px;
+  padding: 10px;
+}
+.title{
+  display: flex;
+  top: 8em;
+  padding-left: 10px;
+  color: var(--title-color);
+  width: 35px;
+  height: 40px;
+}
+.num{
+  display: flex;
+}
+.btnn{
+  width: 55px;
+  height: 20px;
+  border-radius: 10px;
+  border: 0;
+}
+.cal-body{
+  background-color: var(--cal-body-color);
+  padding: 10px;
+  width: 260px;
+  border-radius: 10px;
+  margin: 5px;
+}
+.btn{
+  display: flex;
+  flex-flow: wrap;
+  padding: 5px 5px;
+}
+.last{
+  display: flex;
+  flex-flow: wrap;
+}
+.screen{
+  padding: 5px;
+}
+.del button{
+  background-color: var(--last-color);
+  outline: none;
+  cursor: pointer;
+  justify-content: center;
+  align-content: center;
+  width: 50px;
+  padding: 5px;
+  font-weight: bold;
+  color: var(--del-color);
+  border: 0;
+  margin: 4px 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 0px 0px var(--last-shadow);
+}
+.but button{
+  background-color: var(--btnn-color);
+  width: 50px;
+  padding: 5px;
+  color: var(--button-color);
+  justify-content: center;
+  align-content: center;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0px 3px 0px 0px var(--shadow-color);
+  margin: 4px 5px;
+  font-size: 20px;
+}
+form input[type="button"]:hover{
+  background-color: var(--input-color);
+}
+form .screen{
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+form .screen input{
+  width: 260px;
+  text-align: right;
+  border: 0;
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 5px 10px;
+  color: var(--theme-color);
+  background-color: var(--input-color);
+}
+.equal button{
+  width: 108px;
+  height: 35px;
+  color: var(--equall-color);
+  padding: 5px;
+  background-color: var(--equal-color);
+  justify-content: center;
+  align-content: center;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0px 3px 0px 0px var(--equal-shadow);
+  margin: 2px 8px;
+  font-size: 20px;
+}
+.reset button{
+  width: 108px;
+  height: 35px;
+  color: var(--del-color);
+  padding: 5px;
+  background-color: var(--last-color);
+  justify-content: center;
+  align-content: center;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0px 3px 0px 0px var(--last-shadow);
+  margin: 2px 8px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 350px) {
+  .body{
+   position: fixed;
+  }
+}
+
