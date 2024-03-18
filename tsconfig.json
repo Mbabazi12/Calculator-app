@@ -1,3 +1,22 @@
+
+// {
+//   "compilerOptions": {
+//     "outDir": "build",
+//     "module": "commonjs",
+//     "target": "es6",
+//     "moduleResolution": "node",
+//     "emitDecoratorMetadata": true,
+//     "experimentalDecorators": true,
+//     "noImplicitAny": true,
+//     "sourceMap": true,
+//     "jsx": "react-jsx"
+//   },
+//   "include": ["src/**/*"]
+// }
+
+
+
+
 {
   "compilerOptions": {
     "target": "es5",
@@ -7,6 +26,7 @@
       "esnext"
     ],
     "allowJs": true,
+    "outDir": "build",
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
