@@ -1,4 +1,3 @@
-import React from "react";
 
 let Button = (props: any) =>{
     return(

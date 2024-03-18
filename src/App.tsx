@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import './App.css';
 import './index.css';
 import Toggle from "./components/toggle";
-import useLocalStorage from "use-local-storage";
 
 
 function App() {
