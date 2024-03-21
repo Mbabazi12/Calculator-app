@@ -1,9 +1,7 @@
 .toggle-container{
     position: absolute;
-    /* top: 7.5em; */
-    padding-left: 170px;
+    transform: scale(1.1) translate(160px, -9px);
 }
-
 .toggle{
     visibility: hidden;
 }
@@ -11,52 +9,50 @@
     display: flex;
     align-items: flex-end;
     flex-direction: row-reverse;
-    font-size: 1em;
     cursor: pointer;
     color: var(--theme-color);
 }
 
 .toggle + label::before{
     content: "";
-    height: 1.2em;
-    width: 2.5em;
-    border-radius: 1em;
+    height: 20px;
+    width: 40px;
+    border-radius: 10px;
     background-color: var(--change-color);
-    margin-left: 1.1em;
+    margin-left: 10px;
 }
 .toggle + label::after{
     content: "";
-    height: 0.9em;
-    width: 1em;
-    border-radius: 1em;
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
     background-color: var(--elipse-color);
     position: absolute;
-    top: 1.3em;
-    right: 1.2em;
+    transform: translate(-20px, -3px);
     transition: background-color 250ms ease-in-out, transform 250ms ease-in-out;
 }
 .toggle:checked + label::after{
-    transform: translateX(100%);
+    transform: translate(-5px, -2px);
 }
 
-@media screen and (max-width: 350px){
+/* @media screen and (max-width: 350px){
     .toggle-container{
         top: 5em;
     }
 }
 @media screen and (max-width: 550px){
     .toggle-container{
-        top: 10em;
-    }
-}
+        top: 20em;
+    } */
+/* } */
 @media screen and (max-width: 750px){
     .toggle-container{
-        top: 5em;
+        padding-top: 10px;
     }
 }
 @media screen and (max-width: 950px){
     .toggle-container{
-        top: 5em;
+        top: 10em;
     }
 }
 @media screen and (max-width: 1150px){

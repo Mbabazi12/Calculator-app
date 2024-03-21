@@ -1,4 +1,3 @@
-
 :root{
   --body-background: #324662;
   --title-color: #ffffff;
@@ -16,6 +15,9 @@
   --equall-color: #ffffff;
   --change-color: #1B2855;
   --elipse-color: #833B3B;
+  --hover-but-color: hsl(0, 9%, 68%);
+  --hover-equal-color: hsl(0, 40%, 32%);
+  --hover-last-color: hsl(194, 32%, 38%);
 }
 [data-theme="second"]{
   --body-background: #19032E;
@@ -34,4 +36,7 @@
   --equall-color: #000000;
   --change-color: #FFFFFF;
   --elipse-color: #0ED6F1;
+  --hover-but-color: #513072;
+  --hover-equal-color: #44a3af;
+  --hover-last-color: #7233b5;
 }
