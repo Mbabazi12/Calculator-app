@@ -35,16 +35,6 @@
     transform: translate(-5px, -2px);
 }
 
-/* @media screen and (max-width: 350px){
-    .toggle-container{
-        top: 5em;
-    }
-}
-@media screen and (max-width: 550px){
-    .toggle-container{
-        top: 20em;
-    } */
-/* } */
 @media screen and (max-width: 750px){
     .toggle-container{
         padding-top: 10px;
